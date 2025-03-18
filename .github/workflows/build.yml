@@ -34,6 +34,6 @@ jobs:
         with:
           files: "src/generated/resources/.cache/"
       - name: Upload Artifact 
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           path: ./build/libs/
